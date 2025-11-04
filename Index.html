@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemandangan Sore Hari</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      width: 90%;
+      max-width: 600px;
+      margin-top: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 20px;
+      color: #333;
+      margin: 20px 0;
+    }
+
+    .animasi {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .animasi span {
+      display: inline-block;
+      white-space: nowrap;
+      position: absolute;
+      animation: bergerak 8s linear infinite;
+    }
+
+    @keyframes bergerak {
+      0% { left: 100%; }
+      100% { left: -100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Gambar -->
+ <img  src="https://ibb.co.com/ZDzXRqq" alt="Pemandangan Sore">
+
+  <!-- Teks di bawah foto -->
+  <p>Pemandangan yang indah di sore hari sambil melihat matahari terbenam</p>
+
+  <!-- Animasi teks berjalan -->
+  <div class="animasi">
+    <span>Lokasi: Pantai Ci Baliung Jawa Barat</span>
+  </div>
+
+</body>
+</html>
